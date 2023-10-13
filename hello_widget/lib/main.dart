@@ -12,16 +12,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: "hello world",
         theme: ThemeData(primarySwatch: Colors.blue),
-        home: Scaffold(
-          appBar:AppBar(
-          title: const Text("nur Rahmat")),
-        body:const Center(
-          child: Text("Hello Daniel wijaya"),
-        )
-    ));
-    
+        home: FirstScreen());
   }
 }
+
 class FirstScreen extends StatelessWidget {
   const FirstScreen({super.key});
 
@@ -30,6 +24,19 @@ class FirstScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("nur Rahmar"),
+        actions: <Widget>[
+        IconButton(onPressed: (){}, icon:const Icon(
+          Icons.search,
+          color:Colors.white,
+        ))
+        ],
+        leading: IconButton(
+          onPressed: (){},
+          icon: const Icon(
+            Icons.home,
+            color: Colors.white,
+          ),
+        ),
       ),
       body: const Center(
         child: Text("hello nur rahmat"),
