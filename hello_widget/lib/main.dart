@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
         home: FirstScreen());
   }
 }
-
 class FirstScreen extends StatelessWidget {
   const FirstScreen({super.key});
 
