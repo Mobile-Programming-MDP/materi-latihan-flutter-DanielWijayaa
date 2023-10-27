@@ -1,4 +1,4 @@
-package com.example.wisara_candi
+package com.example.wisata_candi
 
 import io.flutter.embedding.android.FlutterActivity
 
