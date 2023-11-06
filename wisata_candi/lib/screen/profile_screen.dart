@@ -21,7 +21,9 @@ class _ProfileScreen extends State<ProfileScreen> {
       body: Stack(
         children: [
           Container(
-            height: 200, width: double.infinity, color: Colors.deepPurple,
+            height: 200, 
+            width: double.infinity, 
+            color: Colors.deepPurple,
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -54,9 +56,9 @@ class _ProfileScreen extends State<ProfileScreen> {
                     ],)  
                   ),
               )
-                // TODO : 3. Buat bagian ProfileInfo yang berisi info profil
-                // TODO : 4. Buat bagian ProfileAction yang berisi TextButton Sign In / Sign Out
-                // 
+                
+                
+                 
               ],
             ),
           )   
